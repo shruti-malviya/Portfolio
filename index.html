@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti - Devloper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #9c27b0;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #ba68c8;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: black;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        main hr {
+            border: 0;
+            background: #fdd835;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .first>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .rightSection {
+            width: 34px;
+        }
+
+        .rightSection img {
+            width: 100%;
+            margin: 70px 0;
+        }
+
+        .purple {
+            color: #fdd835;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        #element {
+            color: #fdd835;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+            margin: auto;
+        }
+
+        .textgrey {
+            color: black;
+        }
+
+        .secondSection .box {
+            background: black;
+            width: 76vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: black;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 57px;
+            position: relative;
+            top: -60px;
+            left: -9px;
+        }
+
+        .image-end {
+            width: 180px;
+            position: relative;
+            top: -80px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 50px;
+            width: 150px;
+            font-size: 18px;
+        }
+
+        .desc {
+            position: relative;
+            top: 86px;
+            color: #fdd835;
+            width: 150px;
+            font-size: 10.5px;
+
+        }
+
+        /* Apply general styling to the footer */
+        footer {
+            background-color: #ba68c8;
+            height: 233px;
+
+        }
+
+        /* Style the footer container */
+        .footer {
+            margin: 459px 192px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Style the first heading in the footer */
+        .footer-first h3 {
+            font-size: 24px;
+            color: black;
+        }
+
+        /* Style the second paragraph in the footer */
+        .footer-second {
+            margin-top: 10px;
+            color: white;
+        }
+
+        /* Style the third line with Gmail information */
+        .footer-third {
+            margin-top: 10px;
+            color: red;
+        }
+
+        /* Style the fourth line with GitHub information */
+        .footer-fourth {
+            margin-top: 10px;
+            color: blue;
+        }
+
+        /* Style the Font Awesome icons */
+        .fa-google,
+        .fa-github {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shruti's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftSection">
+                Hey, My name is <span class="purple">Shruti</span>
+                <div> I am a passionate Web Developer. </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="./image/new (3).png" alt="this is my image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="textgrey">What I Have Done So far</span>
+            <h1> Work Experience</h1>
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="image-top" src="image/log1.png">
+                    <div class="vertical-title">HTML Developer (2018-2019)</div>
+                    <div class="desc">"In 2018-19, I embarked on an exciting journey to become an HTML developer. It all
+                        began with a curiosity and a desire to understand the backbone of the web. I immersed myself in
+                        online tutorials, documentation, and interactive coding exercises, eager to grasp the
+                        fundamentals of HTML.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="image/log2.png">
+                    <div class="vertical-title">CSS Developer (2018-2019)</div>
+                    <div class="desc">As I progressed, I delved into the world of CSS frameworks such as Bootstrap and
+                        Foundation, which provided a solid foundation for rapid prototyping and building responsive
+                        websites. I embraced the principles of mobile-first design and learned how to optimize websites
+                        for different screen sizes and devices.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="image/log3.png">
+                    <div class="vertical-title">JS Developer (2019-2020)</div>
+                    <div class="desc">In 2018-19, I embarked on an exciting journey to become a JavaScript developer. It
+                        all began with a curiosity and passion for web development, driven by the desire to bring my
+                        ideas to life in the digital realm.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-end" src="image/MERN-logo.png">
+                    <div class="vertical-title" style="top: 45px">MERN Stack Developer <br>(2020-2023)</div>
+                    <div class="desc" style="top: 60px;">I began by immersing myself in the world of web development,
+                        dedicating countless hours to learning the fundamentals of HTML, CSS, and JavaScript. With a
+                        solid foundation in place, I delved deeper into the MERN stack, recognizing its power and
+                        versatility in building modern, scalable web applications.
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Shruti's Developer </h3>
+            </div>
+            <div class="footer-second">Connect with me and let's bring your ideas to life!</div>
+            <div class="footer-third"><i class="fab fa-google"></i>Gmail- shrutimalviyaswsm@gmail.com</div>
+            <div class="footer-fourth"><i class="fab fa-github"></i>Github - https://github.com/shruti-malviya</div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['I Have Working Experience of 5 Years', 'as a Frontend Developer', 'as a Backend Developer', 'MERN Stack Developer', 'Full Stack Web Developer', 'Learning Web Development since 2019'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
